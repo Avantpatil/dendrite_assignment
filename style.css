@@ -1,0 +1,129 @@
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+  
+}
+/*dashboard*/
+.dashboard {
+position: absolute;
+width: 320px;
+height: 1024px;
+background-color: #9ADCFF;
+}
+.e{
+  width:3rem;
+}
+.side2{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.side1{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.side1:hover{
+  background-color: #11324D;
+  color:#fff;
+}
+.side2:hover{
+  background-color: #11324D;
+  color:#fff;
+}
+
+/*up box*/
+.up_box {
+position: absolute;
+width: 1120px;
+height: 62px;
+left: 320px;
+background-color: #54BAB9;
+}
+.prof{
+  position: absolute;
+  right:150px;
+  top:15px;
+}
+.d{
+  position: absolute;
+    right: -18px;
+    top: 3px;
+}
+
+/*content*/
+.content {
+margin-left:350px;
+display:grid;
+grid-template-rows:1fr 1fr 1fr;
+height: 400px;
+}
+.row {
+    float:left;
+    padding-right:10px;
+    padding-left:10px;
+}
+.w{
+  margin-left: 30px;
+}
+.w:hover {
+  color: red;
+}
+.one{
+  margin-top: 60px;
+}
+.three {
+    margin-top:15px;
+}
+.card-img-top {
+  width:90%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.two {
+  margin-top: 15px;
+}
+.head1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/*music*/
+.music {
+  position: absolute;
+width: 1440px;
+height: 94px;
+top: 1030px;
+background-color: #54BAB9;
+}
+.song_name {
+  margin-left: 90px;
+    position: absolute;
+    top: 10px;
+}
+.singer {
+  margin-left: 90px;
+    position: absolute;
+    top: 40px;
+}
+.play {
+
+  position: absolute;
+  left:700px;
+  top:30px;
+}
+.mirror {
+  transform: rotate(180deg);
+}
+.c{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.a {
+  position: absolute;
+  right:50px;
+  top:45px;
+}
+.b{
+  position: absolute;
+  right:90px;
+  top:45px;
+}
